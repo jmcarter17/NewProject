@@ -2,8 +2,5 @@
 #include "helloworld.h"
 
 TEST_CASE("Test Hello World") {
-    auto val = lib::helloworld();
-//    auto val = "Hello, World";
-
-    CHECK(val == "Hello, World!");
+  CHECK(lib::helloworld() == "Hello, World!");
 }
