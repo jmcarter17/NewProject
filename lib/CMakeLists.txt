@@ -13,4 +13,4 @@ set(TEST
 
 add_executable(lib-test ${TEST})
 target_link_libraries(lib-test PRIVATE lib)
-target_link_libraries(lib-test PRIVATE CONAN_PKG::catch2)
+target_link_libraries(lib-test PRIVATE CONAN_PKG::Catch2)
